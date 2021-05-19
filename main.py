@@ -37,7 +37,7 @@ def read():
             file.seek(os.SEEK_SET)
 
     except Exception:
-        print("Error happened")
+        # print("Error happened")
         try:
             file.close()
         except:
@@ -72,6 +72,8 @@ def check_ip(ip):
     try:
         invalid = True
         octets = list(map(int,ip.split(".")))
+        if len(octets) != 4:
+            return invalid
         for octet in octets:
             if octet < 0 or octet > 255:
                 break
@@ -79,7 +81,7 @@ def check_ip(ip):
             invalid = False
         return invalid
     except:
-        return True
+        return invalid
 
 def main():
     global targets, threads, event
@@ -97,6 +99,7 @@ def main():
         print("6. Exit")
 
         try:
+            choose = 0
             choose = int(input("Choose >> "))
         except:
             print("Invalid input!")
@@ -116,7 +119,7 @@ def main():
             while bandwith < 100:
                 bandwith = int(input("Insert bandwith [ must be more than 100 ] : ")) 
             
-            while not location.endswith(('Nation','State','Country')):
+            while not location.endswith((' Nation',' State',' Country')):
                 location = input("Insert location [ ends with Nation | State | Country ] [cs] : ")
             
             while variety not in ['Website','Server']:
@@ -155,6 +158,7 @@ def main():
             event.set()
             time.sleep(1)
     
+    print("Wait for all thread to finish attacking")
     for t in threads:
         t.join()
 
