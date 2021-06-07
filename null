@@ -1,0 +1,323 @@
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 609, in _read_timeout
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+
+Exception: Error reading SSH protocol banner
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 609, in _read_timeout
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+
+Exception: Error reading SSH protocol banner
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 609, in _read_timeout
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 609, in _read_timeout
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2212, in _check_banner
+    buf = self.packetizer.readline(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 380, in readline
+    buf += self._read_timeout(timeout)
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+    x = self.__socket.recv(128)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2039, in run
+    self._check_banner()
+  File "C:\Users\wahyu\AppData\Local\Programs\Python\Python38\lib\site-packages\paramiko\transport.py", line 2216, in _check_banner
+    raise SSHException(
+paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+
