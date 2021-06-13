@@ -82,7 +82,7 @@ def checker():
 def main():
     options, _ = getopt(sys.argv[1:], "i:s:e:t:", ["ip=", "startPort=", "endPort=", "thread=", "xmas",  "fin", "null", 'syn', 'stealthsyn'])
     mode = -1
-    count = 0
+    count = 3
     for k, v in options:
         if k in ['-i', '--ip']:
             ip = v
