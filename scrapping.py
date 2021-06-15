@@ -29,7 +29,7 @@ for o,a in opts:
     elif o in("-p","--port"):
         try:
             port = int(a)
-            print(port)
+            # print(port)
             if port < 1 or port > 65535:
                 print("Invalid port number")
                 exit()
@@ -56,13 +56,13 @@ webPage = requests.get("http://" + ip + ":" + str(port) + "/index.php",headers=c
 bSoup = BeautifulSoup(webPage.text, 'html.parser')
 allProductName = bSoup.find_all("h1", {"class" : "text-4xl"})
 allProductPrice = bSoup.find_all("pre")
-print(len(allProductName))
+# print(len(allProductName))
 # print(allProductName)
 # print(allProductPrice)
 
 arr = []
 
-for i in range(0,len(allProductName)):
+for i in range(1,len(allProductName)):
     try:
         print(allProductName[i].decode_contents(),int(allProductPrice[i].decode_contents().split(" ")[1]))
         obj = Product(allProductName[i].decode_contents(),int(allProductPrice[i].decode_contents().split(" ")[1]))
