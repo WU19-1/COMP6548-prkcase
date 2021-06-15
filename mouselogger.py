@@ -1,5 +1,6 @@
 from pynput import mouse
 import time
+import sys
 
 def on_move(x, y):
     print(f'Mouse moved to %d %d'%(x,y))
@@ -17,8 +18,13 @@ try:
     listener.daemon = True
     listener.start()
     # trick for enabling keyboard interrupt in the code, so the code can be terminated with CTRL + C
-    while True:
-        time.sleep(100)
+    # use signal.pause() in linux, because signal.pause can't be used in windows
+    if sys.platform.startswith("win"):
+        while True:
+            time.sleep(100)
+    else:
+        import signal
+        signal.pause()
     
 except (KeyboardInterrupt, SystemExit):
     exit()
