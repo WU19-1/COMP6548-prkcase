@@ -1,4 +1,5 @@
 from pynput import mouse
+import time
 
 def on_move(x, y):
     print(f'Mouse moved to %d %d'%(x,y))
@@ -13,7 +14,11 @@ def on_scroll(x, y, dx, dy):
 
 try:
     listener = mouse.Listener(on_move, on_click, on_scroll)
+    listener.daemon = True
     listener.start()
-    listener.join()
-except KeyboardInterrupt:
+    # trick for enabling keyboard interrupt in the code, so the code can be terminated with CTRL + C
+    while True:
+        time.sleep(100)
+    
+except (KeyboardInterrupt, SystemExit):
     exit()
